@@ -7,5 +7,15 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #265823;
-    color: rgb(215, 254, 215);
+}
+
+p {
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(199, 59, 59);
+    font-weight: bold;
 }
