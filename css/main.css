@@ -12,6 +12,10 @@ body {
 p {
     font-size: 1.2rem;
     color: #fff;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
 }
 
 a {
