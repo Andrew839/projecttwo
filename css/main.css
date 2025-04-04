@@ -12,18 +12,33 @@ body {
 p {
     font-size: 1.2rem;
     color: #fff;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
+    display: inline;
 }
 
 a {
     text-decoration: none;
-    color: rgb(199, 59, 59);
+    color: rgb(131, 233, 143);
     font-weight: bold;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
+}
+
+.lyrics {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+#word1 {
+    color: #101dce;
+    display: inline;
+}
+#word2 {
+    color: #f42daf;
+    display: inline;
+}
+#word3 {
+    color: #ffc800;
+    display: inline;
+}
+#word4 {
+    color: #b32ad1;
+    display: inline;
 }
