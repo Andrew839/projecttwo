@@ -7,38 +7,162 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #265823;
+    color: #fff;
 }
 
-p {
-    font-size: 1.2rem;
-    color: #fff;
-    display: inline;
+.lyrics {
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.5;
+    top: 30px;
+    bottom: 20px;
+    animation-name: lyricAnimate;
+    animation-duration: 7s;
+    animation-iteration-count: one;
+    animation-timing-function: fadein;
+    animation-direction: alternate;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
 }
 
 a {
     text-decoration: none;
     color: rgb(131, 233, 143);
     font-weight: bold;
-}
-
-.lyrics {
-    font-size: 1.5rem;
-    color: #fff;
+    font-size: 100px;
+    display: inline;
+    margin: 0.5rem;
+    animation-name: aAnimate;
+    animation-duration: 7s;
+    animation-iteration-count: one;
+    animation-timing-function: fadein;
+    animation-direction: alternate;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
 }
 
 #word1 {
     color: #101dce;
+    font-weight: bold;
+    font-size: 100px;
+    margin: 0.5rem;
     display: inline;
+    animation-name: word1Animate;
+    animation-duration: 7s;
+    animation-iteration-count: one;
+    animation-timing-function: fadein;
+    animation-direction: alternate;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
 }
+
+.word1:hover {
+    transform: rotate(30deg);
+}
+
 #word2 {
     color: #f42daf;
+    font-weight: bold;
+    font-size: 100px;
+    margin: 0.5rem;
     display: inline;
+    animation-name: word2Animate;
+    animation-duration: 7s;
+    animation-iteration-count: one;
+    animation-timing-function: fadein;
+    animation-direction: alternate;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
 }
+
 #word3 {
     color: #ffc800;
+    font-weight: bold;
+    font-size: 100px;
+    margin: 0.5rem;
     display: inline;
+    animation-name: word3Animate;
+    animation-duration: 7s;
+    animation-iteration-count: one;
+    animation-timing-function: fadein;
+    animation-direction: alternate;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+
 }
+
 #word4 {
     color: #b32ad1;
+    font-weight: bold;
+    font-size: 100px;
+    margin: 0.5rem;
     display: inline;
+    animation-name: word4Animate;
+    animation-duration: 7s;
+    animation-iteration-count: one;
+    animation-timing-function: fadein;
+    animation-direction: alternate;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
 }
+
+@keyframes lyricAnimate {
+   from {
+        color: #265823;
+    }
+    to {
+        color: #fff;
+    }
+}
+
+@keyframes aAnimate {
+    from {
+        color: #265823;
+    }
+    to {
+        color: rgb(131, 233, 143);
+    }
+}
+
+@keyframes word1Animate {
+    from {
+        color: #265823;
+    }
+    to {
+        color: #101dce;
+    }
+}
+@keyframes word2Animate {
+    from {
+        color: #265823;
+    }
+    to {
+        color: #f42daf;
+    }
+}
+@keyframes word3Animate {
+    from {
+        color: #265823;
+    }
+    to {
+        color: #ffc800;
+    }
+}
+@keyframes word4Animate {
+    from {
+        color: #265823;
+    }
+    to {
+        color: #b32ad1;
+    }
+}
+
+
+
