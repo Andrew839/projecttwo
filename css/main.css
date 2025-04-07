@@ -16,6 +16,7 @@ body {
     flex-wrap: nowrap;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     width: 100%;
     height: 100%;
     font-size: 40px;
@@ -31,6 +32,22 @@ body {
     animation-delay: 0s;
     animation-fill-mode: forwards;
 }
+
+.words {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.5;
+    top: 30px;
+    bottom: 20px;
+}
+
 
 a {
     text-decoration: none;
@@ -48,6 +65,10 @@ a {
     animation-fill-mode: forwards;
 }
 
+a:hover {
+    transform: translate(100px, 20px)scale(1.5);
+}
+
 #word1 {
     color: #101dce;
     font-weight: bold;
@@ -63,8 +84,9 @@ a {
     animation-fill-mode: forwards;
 }
 
-.word1:hover {
-    transform: rotate(30deg);
+#word1:hover {
+    background-color: rgb(154, 5, 208);
+    transform: rotate(300deg);
 }
 
 #word2 {
@@ -82,6 +104,11 @@ a {
     animation-fill-mode: forwards;
 }
 
+#word2:hover {
+    background-color: rgb(208, 5, 5);
+    transform: scale(2);
+}
+
 #word3 {
     color: #ffc800;
     font-weight: bold;
@@ -95,7 +122,11 @@ a {
     animation-direction: alternate;
     animation-delay: 0s;
     animation-fill-mode: forwards;
+}
 
+#word3:hover {
+    background-color: rgb(247, 160, 21);
+    transform: translate(-30px, 45px);
 }
 
 #word4 {
@@ -113,8 +144,13 @@ a {
     animation-fill-mode: forwards;
 }
 
+#word4:hover {
+    background-color: rgb(190, 232, 254);
+    transform: rotate(90deg) scale(1.2);
+}
+
 @keyframes lyricAnimate {
-   from {
+    from {
         color: #265823;
     }
     to {
