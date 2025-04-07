@@ -24,7 +24,7 @@ body {
     top: 30px;
     bottom: 20px;
     animation-name: lyricAnimate;
-    animation-duration: 7s;
+    animation-duration: 5s;
     animation-iteration-count: one;
     animation-timing-function: fadein;
     animation-direction: alternate;
@@ -40,7 +40,7 @@ a {
     display: inline;
     margin: 0.5rem;
     animation-name: aAnimate;
-    animation-duration: 7s;
+    animation-duration: 5s;
     animation-iteration-count: one;
     animation-timing-function: fadein;
     animation-direction: alternate;
@@ -55,7 +55,7 @@ a {
     margin: 0.5rem;
     display: inline;
     animation-name: word1Animate;
-    animation-duration: 7s;
+    animation-duration: 5s;
     animation-iteration-count: one;
     animation-timing-function: fadein;
     animation-direction: alternate;
@@ -74,7 +74,7 @@ a {
     margin: 0.5rem;
     display: inline;
     animation-name: word2Animate;
-    animation-duration: 7s;
+    animation-duration: 5s;
     animation-iteration-count: one;
     animation-timing-function: fadein;
     animation-direction: alternate;
@@ -89,7 +89,7 @@ a {
     margin: 0.5rem;
     display: inline;
     animation-name: word3Animate;
-    animation-duration: 7s;
+    animation-duration: 5s;
     animation-iteration-count: one;
     animation-timing-function: fadein;
     animation-direction: alternate;
@@ -105,7 +105,7 @@ a {
     margin: 0.5rem;
     display: inline;
     animation-name: word4Animate;
-    animation-duration: 7s;
+    animation-duration: 5s;
     animation-iteration-count: one;
     animation-timing-function: fadein;
     animation-direction: alternate;
